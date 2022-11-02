@@ -1,0 +1,179 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(10.jpg);
+}
+
+body *{
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.background{
+    background-color: rgba(72, 129, 15, 0.822);
+    margin: 20px 20px 20px 100px;
+    padding: 4%;
+    color: wheat;
+}
+
+.margin-right{
+    margin-right: 50%;
+}
+
+.img{
+    z-index: 5;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color: rgb(245, 241, 26);
+    font-family: cursive;
+    font-size: 3em;
+    margin: 0;
+    padding: 3%;
+    flex: none;
+    background-image: linear-gradient(0deg, rgb(62, 63, 62), transparent)
+}
+
+.text2{
+    color: rgb(66, 65, 65);
+    background-color: rgba(247, 118, 12, 0.918);
+    padding: 4%;
+    font-size: 20px;
+    border-radius: 2em;
+}
+
+.text3{
+    color: rgb(66, 65, 65);
+    background-color: rgba(250, 195, 43, 0.938);
+    padding: 5%;
+    font-size: 20px;
+}
+
+.padding-3{
+    padding: 0% 2% 0% 3%;
+}
+
+.padding{
+    padding: 3% 3% 0 3%;
+}
+
+.margin-top{
+    margin-top: 4%;
+}
+
+.position{
+    background-color: rgba(34, 27, 27, 0.781);
+    margin: -70px 30px 30px 30px;
+    color: wheat;
+}
+
+.position2{
+    margin: 0 -80px 0 0px;
+    z-index: 2;
+    background-color: rgba(247, 118, 12, 0.918)  
+}
+
+.pic{
+    height: 800px;
+    width: 400px;
+    z-index: 5;
+    margin: 20px 0 0 0;
+}
+
+#rel{
+    position: relative;
+}
+
+.fix{
+    position: fixed;
+}
+
+.title{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    flex: none;
+}
+
+.font-size{
+    font-size: 17px;
+}
+
+.title2{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    body *{
+        box-sizing: border-box;
+        display: flex;
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .text{
+        color: rgb(245, 241, 26);
+        font-family: cursive;
+        font-size: 1.5em;
+        margin: 0;
+        padding: 3%;
+        flex: none;
+        background-image: linear-gradient(0deg, rgb(62, 63, 62), transparent)
+    }
+
+    #rel{
+        position: relative;
+        flex-direction: column;
+    }
+
+    .img{
+        z-index: 5;
+        flex:1;
+        max-width: 100%;
+    }
+
+    .position{
+        background-color: rgba(34, 27, 27, 0.781);
+        color: wheat;
+        margin: 0;
+    }
+    
+    .position2{
+        background-color: rgba(247, 118, 12, 0.918);
+    
+    }
+    
+    .pic{
+        height: auto;
+        width: auto;
+        z-index: auto;
+        margin: 0;
+        padding: 3%;
+    }
+
+    .background{
+        background-color: rgba(72, 129, 15, 0.822);
+        color: wheat;
+        margin: 0;
+        padding: 4%;
+    }
+    
+}
