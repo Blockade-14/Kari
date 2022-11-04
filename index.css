@@ -154,6 +154,14 @@ body *{
         font-size: 2em;
     }
 
+    .text2{
+        padding: 2em;
+    }
+
+    .text3{
+        padding: 5%;
+    }
+
     #rel{
         position: relative;
         flex-direction: column;
@@ -188,7 +196,7 @@ body *{
         background-color: rgba(72, 129, 15, 0.822);
         color: wheat;
         margin: 0;
-        padding: 4%;
+        padding: 2em;
     }
     
     #column{
